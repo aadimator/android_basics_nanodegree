@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="hint">android</string>
+    <string name="searchButtonText">Search</string>
+    <string name="connectionSuccessMsg">Searching.....</string>
+    <string name="connectionFailureMsg">No Network Available! Try Later</string>
+    <string name="empty_list_view_text">Enter your query in the search field and press the Search button to search for the news related to that topic.</string>
+    <string name="search_query">android</string>
+</resources>

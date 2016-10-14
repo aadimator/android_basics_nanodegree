@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+    <string name="top_spots">Top Spots</string>
+    <string name="indoors">Indoors</string>
+    <string name="outdoors">Outdoors</string>
+    <string name="historical">Historical</string>
+    <string name="shah_faisal">Shah Faisal Mosque</string>
+    <string name="shah_faisal_address">Khayaban-e-Margala, Islamabad</string>
+    <string name="lake_view_park">Lake View Park</string>
+    <string name="lake_view_park_address">Islamabad</string>
+    <string name="pakistan_monument">Pakistan Monument</string>
+    <string name="pakistan_monument_address">Shakarparian Hills, Islamabad</string>
+    <string name="rawal_lake">Rawal lake</string>
+    <string name="rawal_lake_address">Reservoir in Islamabad, Pakistan</string>
+    <string name="taxilla_museum">Taxila Museum</string>
+    <string name="taxilla_museum_address">Museum in Taxila, Pakistan</string>
+    <string name="pakistan_museum">Pakistan Museum of Natural History</string>
+    <string name="pakistan_museum_address">Museum in Islamabad, Pakistan</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context="com.example.aadimator.businessspa.MainActivity"
+              android:background="@color/colorPrimary"
+              android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:id="@+id/uniImage"
+        android:src="@drawable/uni"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/university_of_haripur"
+        android:id="@+id/titleTextView"
+        android:background="@android:color/white"
+        android:textColor="@color/colorAccent"
+        android:textAlignment="center"
+        android:textSize="38sp"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:text="@string/description"
+        android:id="@+id/description"
+        style="@style/details"
+        android:background="@color/colorAccent"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:text="@string/address"
+        android:id="@+id/addressTextView"
+        style="@style/details"/>
+    <TextView
+        style="@style/details"
+        android:text="@string/phone"
+        android:id="@+id/phoneTextView"/>
+    <TextView
+        style="@style/details"
+        android:text="@string/web_address"
+        android:id="@+id/webTextView"/>
+
+</LinearLayout>

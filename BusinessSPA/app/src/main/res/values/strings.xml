@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BusinessSPA</string>
+    <string name="university_of_haripur">University of Haripur (UOH)</string>
+    <string name="address">University of Haripur, Hatar Road, Haripur, Pakistan</string>
+    <string name="phone">0995-615394</string>
+    <string name="web_address">www.uoh.edu.pk</string>
+    <string name="description">Our Motto is \"Restoring Hope; Building Community\"</string>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Cricket Score Keeper</string>
+    <string name="reset">Reset</string>
+    <string name="winningTeam">Winner : %1$s</string>
+    <string name="team_a">Team A</string>
+    <string name="team_b">Team B</string>
+    <string name="team_score_initial">---</string>
+    <string name="buttonLabelScore1">+ 1</string>
+    <string name="buttonLabelScore2">+ 2</string>
+    <string name="buttonLabelScore3">+ 3</string>
+    <string name="buttonLabelScore4">+ 4</string>
+    <string name="buttonLabelScore5">+ 5</string>
+    <string name="buttonLabelScore6">+ 6</string>
+</resources>

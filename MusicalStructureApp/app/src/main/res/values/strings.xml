@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Musical Structure App</string>
+    <string name="library">AudioBook Library</string>
+    <string name="library_problem">We need to list all the audio-books present in the sdcard, here. For that we need to access the Files and see which directories contain the audio-books. We will list each book using List. Upon clicking each audio-book, its respective details will be shown, e.g</string>
+    <string name="audio_book">Audio Book</string>
+    <string name="details">Details</string>
+    <string name="author">Author</string>
+    <string name="author_problem">We will list all the books by a specific author here. User can click on each book to play and go to the details activity.</string>
+    <string name="details_problem">Here we will show the details of the selected AudioBook. We will load an AudioBook object and populate this view by its author, image etc. By clicking on the Author link or Button, we will display all the books by that author.</string>
+</resources>

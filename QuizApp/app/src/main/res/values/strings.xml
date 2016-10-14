@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="quesiton1">Which is the most used mobile OS?</string>
+    <string name="question2">Which View is used to Display Image?</string>
+    <string name="question3">Check all the valid variable names:</string>
+    <string name="question4">Which is the recommended IDE by Google?</string>
+    <string name="question5">Which language is used to change the layout in Android?</string>
+</resources>

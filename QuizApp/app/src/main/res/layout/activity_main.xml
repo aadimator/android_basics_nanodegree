@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quizapp.MainActivity"
+    android:padding="@dimen/activity_margin_small">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="@dimen/activity_margin_small"
+        style="@style/answerEditTextView">
+
+        <LinearLayout
+            style="@style/quizLinearLayout">
+
+            <TextView
+                android:text="Quiz #1"
+                style="@style/quizNumber"/>
+
+            <TextView
+                android:text="@string/quesiton1"
+                style="@style/quizQuestion"/>
+
+            <EditText
+                android:id="@+id/mostUsedOS"
+                style="@style/answerEditTextView"/>
+
+            <View
+                style="@style/seperator"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/quizLinearLayout">
+
+            <TextView
+                android:text="Quiz #2"
+                style="@style/quizNumber"/>
+
+            <TextView
+                android:text="@string/question2"
+                style="@style/quizQuestion"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/activity_margin_medium"
+                android:id="@+id/radioGroup">
+
+                <RadioButton
+                    android:text="TextView"
+                    style="@style/quizCheckRadio"/>
+
+                <RadioButton
+                    android:text="ImgView"
+                    style="@style/quizCheckRadio"/>
+
+                <RadioButton
+                    android:text="ImageView"
+                    style="@style/quizCheckRadio"/>
+
+                <RadioButton
+                    android:text="Image"
+                    style="@style/quizCheckRadio"/>
+            </RadioGroup>
+
+            <View
+                style="@style/seperator"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/quizLinearLayout">
+
+            <TextView
+                android:text="Quiz #3"
+                style="@style/quizNumber"/>
+
+            <TextView
+                android:text="@string/question3"
+                style="@style/quizQuestion"/>
+
+
+            <CheckBox
+                android:text="12Monkeys"
+                android:id="@+id/invalid1"
+                style="@style/quizCheckRadio"/>
+
+            <CheckBox
+                android:text="not_valid"
+                android:id="@+id/valid1"
+                style="@style/quizCheckRadio"/>
+
+            <CheckBox
+                android:text="vAl!d"
+                android:id="@+id/invalid2"
+                style="@style/quizCheckRadio"/>
+
+            <CheckBox
+                android:text="20Dollars"
+                android:id="@+id/invalid3"
+                style="@style/quizCheckRadio"/>
+
+            <CheckBox
+                android:text="answer23"
+                android:id="@+id/valid2"
+                style="@style/quizCheckRadio"/>
+
+            <View
+                style="@style/seperator"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/quizLinearLayout">
+
+            <TextView
+                android:text="Quiz #4"
+                style="@style/quizNumber"/>
+
+            <TextView
+                android:text="@string/question4"
+                style="@style/quizQuestion"/>
+
+            <EditText
+                android:id="@+id/recommendedIde"
+                android:layout_marginBottom="@dimen/activity_margin_small"
+                style="@style/answerEditTextView"/>
+
+            <View
+                style="@style/seperator"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/quizLinearLayout">
+
+            <TextView
+                android:text="Quiz #5"
+                style="@style/quizNumber"/>
+
+            <TextView
+                android:text="@string/question5"
+                style="@style/quizQuestion"/>
+
+            <EditText
+                android:id="@+id/layoutLanguage"
+                android:layout_marginBottom="@dimen/activity_margin_small"
+                style="@style/answerEditTextView"/>
+
+            <View
+                style="@style/seperator"/>
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/submitButton"
+            android:layout_gravity="center_horizontal"
+            android:onClick="grade"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="@dimen/list_item_vertical"
+              android:orientation="vertical">
+
+    <!--<ImageView-->
+    <!--android:layout_width="@dimen/list_item_image_width"-->
+    <!--android:layout_height="match_parent"-->
+    <!--app:srcCompat="@drawable/test"-->
+    <!--android:id="@+id/cover"-->
+    <!--android:scaleType="fitStart"-->
+    <!--android:adjustViewBounds="true"-->
+    <!--android:cropToPadding="true"/>-->
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/list_item_vertical"
+        android:layout_marginBottom="@dimen/list_item_vertical"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/list_item_vertical"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+    <TextView
+        android:id="@+id/publishDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/list_item_vertical"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+</LinearLayout>

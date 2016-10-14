@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.android.scorekeeper.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/teamsViewGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <LinearLayout
+            android:id="@+id/teamAViewGroup"
+            style="@style/teamColumn">
+
+            <TextView
+                android:id="@+id/teamAScoreLabel"
+                style="@style/teamLabel"
+                android:text="@string/team_a"/>
+
+            <TextView
+                android:id="@+id/teamAScoreValue"
+                style="@style/teamScore"
+                android:text="@string/team_score_initial"/>
+
+            <LinearLayout
+                style="@style/allScoreButtons">
+
+                <LinearLayout
+                    style="@style/scoreButtonRow">
+
+                    <Button
+                        android:id="@+id/teamAScore1"
+                        style="@style/scoreButton"
+                        android:text="@string/buttonLabelScore1"/>
+
+                    <Button
+                        android:id="@+id/teamAScore2"
+                        style="@style/scoreButton"
+                        android:text="@string/buttonLabelScore2"/>
+
+                    <Button
+                        android:id="@+id/teamAScore3"
+                        style="@style/scoreButton"
+                        android:text="@string/buttonLabelScore3"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/scoreButtonRow">
+
+                    <Button
+                        android:id="@+id/teamAScore4"
+                        style="@style/scoreButton"
+                        android:text="@string/buttonLabelScore4"/>
+
+                    <Button
+                        android:id="@+id/teamAScore5"
+                        style="@style/scoreButton"
+                        android:text="@string/buttonLabelScore5"/>
+
+                    <Button
+                        android:id="@+id/teamAScore6"
+                        style="@style/scoreButton"
+                        android:text="@string/buttonLabelScore6"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/separatorView"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorSeparator">
+
+        </View>
+
+        <LinearLayout
+            android:id="@+id/teamBViewGroup"
+            style="@style/teamColumn">
+
+            <TextView
+                android:id="@+id/teamBScoreLabel"
+                style="@style/teamLabel"
+                android:text="@string/team_b"/>
+
+            <TextView
+                android:id="@+id/teamBScoreValue"
+                style="@style/teamScore"
+                android:text="@string/team_score_initial"/>
+
+            <LinearLayout
+                style="@style/allScoreButtons">
+
+                <LinearLayout
+                    style="@style/scoreButtonRow">
+
+                    <Button
+                        android:id="@+id/teamBScore1"
+                        style="@style/scoreButton"
+                        android:padding="0dp"
+                        android:text="@string/buttonLabelScore1"/>
+
+                    <Button
+                        android:id="@+id/teamBScore2"
+                        style="@style/scoreButton"
+                        android:text="@string/buttonLabelScore2"/>
+
+                    <Button
+                        android:id="@+id/teamBScore3"
+                        style="@style/scoreButton"
+                        android:text="@string/buttonLabelScore3"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/scoreButtonRow">
+
+                    <Button
+                        android:id="@+id/teamBScore4"
+                        style="@style/scoreButton"
+                        android:text="@string/buttonLabelScore4"/>
+
+                    <Button
+                        android:id="@+id/teamBScore5"
+                        style="@style/scoreButton"
+                        android:text="@string/buttonLabelScore5"/>
+
+                    <Button
+                        android:id="@+id/teamBScore6"
+                        style="@style/scoreButton"
+                        android:text="@string/buttonLabelScore6"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/winnerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/resetButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:text="@string/winningTeam"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/textColor"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/activity_margin"
+        android:onClick="resetScores"
+        android:text="@string/reset"/>
+
+</RelativeLayout>
